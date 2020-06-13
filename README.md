@@ -17,3 +17,5 @@ npm run serve
 ```
 
 ![Alt text](/pictures/index.png?raw=true)
+
+> This project uses [BootstrapVue](https://github.com/bootstrap-vue/bootstrap-vue) and [VueCodeHighlight](https://github.com/elisiondesign/vue-code-highlight), go check 'em out. 
