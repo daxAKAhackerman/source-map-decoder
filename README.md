@@ -10,7 +10,7 @@ npm run build
 # The built code will be in the "dist" folder. Just put the content on a Web server or run the index.html file locally
 ```
 
-### Run in development mode
+## Run in development mode
 ```bash
 npm install
 npm run serve
