@@ -28,8 +28,9 @@
           hover
           :items="fileList"
           :fields="fields"
-          sort-by.sync="name"
-          sort-direction="asc"
+          :sort-by.sync="sortBy"
+          :sort-desc.sync="sortDesc"
+          :sort-direction="sortDirection"
           @row-clicked="item=>$set(item, '_showDetails', !item._showDetails)"
         >
           <template v-slot:row-details="row">
@@ -49,11 +50,15 @@ export default {
   },
   data() {
     return {
+      sortBy: "name",
+      sortDesc: true,
+      sortDirection: "desc",
       fields: [
         {
           key: "name",
           sortable: true,
-          label: "File name"
+          label: "File name",
+          isActive: true
         }
       ],
       textareaVisible: true,
