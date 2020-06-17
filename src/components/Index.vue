@@ -18,7 +18,7 @@
           <li>Click on the table row that corresponds to the file that you wish to view.</li>
           <li>
             If you want your own Source Map Decoder, the source code and build instructions can be found on its
-            <b-link href="https://github.com/daxAKAhackerman/source-map-decoder">GitHub project page</b-link>.
+            <b-link target="_blank" href="https://github.com/daxAKAhackerman/source-map-decoder">GitHub project page</b-link>.
           </li>
         </ul>
         <hr />
