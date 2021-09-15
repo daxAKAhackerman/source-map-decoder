@@ -1,5 +1,4 @@
 # Source Map Decoder
-> https://sourcemap.hackerman.ca/
 
 Quickly view source maps in a readable format 
 
